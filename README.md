@@ -11,7 +11,8 @@ The following are required to run Scrapy
 To start demo type on terminal:
 * cd stack
 * scrapy crawl stack -a url_file=start.txt 
-* alternatively scrapy crawl stack -a url_file=start.txt -o users.json -t json to store results in json format
+Alternatively to store result in json format type
+* scrapy crawl stack -a url_file=start.txt -o users.json -t json 
 
 ## Note ##
 The file start.txt contains the list of urls from which Scrapy will start crawling data
