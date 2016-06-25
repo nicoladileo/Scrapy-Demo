@@ -1,6 +1,6 @@
 # Scrapy Demo #
 This example is to show how to easily parse content from Web Pages using Scrapy Framework. 
-The code is written following example from (https://realpython.com/blog/python/web-scraping-with-scrapy-and-mongodb/)
+The code is written following example from https://realpython.com/blog/python/web-scraping-with-scrapy-and-mongodb/
 
 ## Requirements ##
 The following are required to run Scrapy
@@ -11,6 +11,7 @@ The following are required to run Scrapy
 To start demo type on terminal:
 * cd stack
 * scrapy crawl stack -a url_file=start.txt 
+
 Alternatively to store result in json format type
 * scrapy crawl stack -a url_file=start.txt -o users.json -t json 
 
